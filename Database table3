@@ -1,0 +1,6 @@
+CREATE TABLE Attendance (
+    StudentID VARCHAR(20),
+    AttDate DATE,
+    Status VARCHAR(10),
+    PRIMARY KEY (StudentID, AttDate)
+);
